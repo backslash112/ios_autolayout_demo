@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 backslash112. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NSLayoutConstraintViewController.h"
 
 
-@interface ViewController ()
+@interface NSLayoutConstraintViewController ()
 
 @property (nonatomic, strong) UIView *redView;
 @property (nonatomic, strong) UIView *yellowView;
 
 @end
 
-@implementation ViewController
+@implementation NSLayoutConstraintViewController
 
 
 - (void)viewDidLoad {

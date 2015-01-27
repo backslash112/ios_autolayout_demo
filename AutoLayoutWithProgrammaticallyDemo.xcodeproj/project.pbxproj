@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6458B6941A7777D1004FD3D9 /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458B6931A7777D1004FD3D9 /* MasonryViewController.m */; };
 		64796C1D1A5D10CC009F7DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64796C1C1A5D10CC009F7DDA /* main.m */; };
 		64796C201A5D10CC009F7DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64796C1F1A5D10CC009F7DDA /* AppDelegate.m */; };
-		64796C231A5D10CC009F7DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64796C221A5D10CC009F7DDA /* ViewController.m */; };
+		64796C231A5D10CC009F7DDA /* NSLayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64796C221A5D10CC009F7DDA /* NSLayoutConstraintViewController.m */; };
 		64796C261A5D10CC009F7DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64796C241A5D10CC009F7DDA /* Main.storyboard */; };
 		64796C281A5D10CC009F7DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64796C271A5D10CC009F7DDA /* Images.xcassets */; };
 		64796C2B1A5D10CC009F7DDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64796C291A5D10CC009F7DDA /* LaunchScreen.xib */; };
@@ -27,13 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6458B6921A7777D1004FD3D9 /* MasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
+		6458B6931A7777D1004FD3D9 /* MasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
 		64796C171A5D10CC009F7DDA /* AutoLayoutWithProgrammaticallyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutWithProgrammaticallyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64796C1B1A5D10CC009F7DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64796C1C1A5D10CC009F7DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64796C1E1A5D10CC009F7DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64796C1F1A5D10CC009F7DDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64796C211A5D10CC009F7DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64796C221A5D10CC009F7DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64796C211A5D10CC009F7DDA /* NSLayoutConstraintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraintViewController.h; sourceTree = "<group>"; };
+		64796C221A5D10CC009F7DDA /* NSLayoutConstraintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintViewController.m; sourceTree = "<group>"; };
 		64796C251A5D10CC009F7DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64796C271A5D10CC009F7DDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64796C2A1A5D10CC009F7DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +86,10 @@
 			children = (
 				64796C1E1A5D10CC009F7DDA /* AppDelegate.h */,
 				64796C1F1A5D10CC009F7DDA /* AppDelegate.m */,
-				64796C211A5D10CC009F7DDA /* ViewController.h */,
-				64796C221A5D10CC009F7DDA /* ViewController.m */,
+				64796C211A5D10CC009F7DDA /* NSLayoutConstraintViewController.h */,
+				64796C221A5D10CC009F7DDA /* NSLayoutConstraintViewController.m */,
+				6458B6921A7777D1004FD3D9 /* MasonryViewController.h */,
+				6458B6931A7777D1004FD3D9 /* MasonryViewController.m */,
 				64796C241A5D10CC009F7DDA /* Main.storyboard */,
 				64796C271A5D10CC009F7DDA /* Images.xcassets */,
 				64796C291A5D10CC009F7DDA /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64796C231A5D10CC009F7DDA /* ViewController.m in Sources */,
+				64796C231A5D10CC009F7DDA /* NSLayoutConstraintViewController.m in Sources */,
 				64796C201A5D10CC009F7DDA /* AppDelegate.m in Sources */,
+				6458B6941A7777D1004FD3D9 /* MasonryViewController.m in Sources */,
 				64796C1D1A5D10CC009F7DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				64796C3C1A5D10CC009F7DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64796C3D1A5D10CC009F7DDA /* Build configuration list for PBXNativeTarget "AutoLayoutWithProgrammaticallyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				64796C3F1A5D10CC009F7DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
