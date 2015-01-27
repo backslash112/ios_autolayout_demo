@@ -56,7 +56,7 @@
         <!--Masonry-->
         <scene sceneID="AL7-yD-ApK">
             <objects>
-                <viewController id="5uY-2o-Dl6" sceneMemberID="viewController">
+                <viewController id="5uY-2o-Dl6" customClass="MasonryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qPV-fk-NBO"/>
                         <viewControllerLayoutGuide type="bottom" id="Mk6-ME-w9d"/>
